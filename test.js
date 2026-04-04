@@ -1,4 +1,4 @@
-const ShoppingCart = require('./ShoppingCart');
+const ShoppingCart = require('./merge-conflict-challenge/ShoppingCart');
 
 let passed = 0;
 let totalTests = 5;
