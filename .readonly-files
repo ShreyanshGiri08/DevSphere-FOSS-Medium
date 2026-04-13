@@ -1,0 +1,21 @@
+
+
+# CI workflows (always protect these)
+.github/workflows/fork-ci.yml
+.github/workflows/pr-checks.yml
+.github/workflows/pr-grader.yml
+
+# Hook source
+.hooks/pre-commit
+
+# Test infrastructure
+tests/run_tests.sh
+
+# Add your task-specific test files below, e.g.:
+samples/in_sample.txt
+samples/out_sample.txt
+test.js
+
+# Repo metadata
+README.md
+.readonly-files
