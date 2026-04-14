@@ -47,7 +47,7 @@ class ShoppingCart {
         let receipt = `Order Receipt (${this.currency})\n`;
         receipt += "------------------\n";
         receipt += `Items: ${this.items.length}\n`;
-        receipt += `Total: ${this.currency} ${this.calculateTotal().toFixed(2)}`;
+        receipt += `Final Total: ${this.currency} ${this.calculateTotal().toFixed(2)}`;
         return receipt;
     }
 }
